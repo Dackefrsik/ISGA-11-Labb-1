@@ -1,0 +1,191 @@
+body {
+    background-color: rgb(255, 255, 255); 
+    margin: 0;
+}
+
+.button {
+    width: 32.90%;
+    font-family: "Sofia Pro Black", Arial, Helvetica, sans-serif; 
+    height: 30px; 
+    font-size: large;
+    text-transform: uppercase;
+    background-color:rgb(225, 199, 165); 
+    color:rgba(40, 15, 0, 0.858);
+    align-content: center;
+    border-radius: 2px;
+    border-color: rgb(148, 123, 90);
+    border-width: 3px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 192px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(171, 142, 104);
+    overflow-x: hidden;
+    
+    margin-top: 80px;
+    text-align: center; 
+}
+.adfield {
+    height: 100%;
+    width: 192px;
+    position:fixed;
+    font-size: 0;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(171, 142, 104);
+    overflow-x: hidden;
+    
+    margin-top: 80px;
+    text-align: center; 
+}
+.nospace{
+    float: left;
+    font-size: 0;
+    padding-bottom: 50px;
+}
+.maintext {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.bestall {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-left: 50px;
+    
+    transition: .5s;
+    height: 160px;
+    
+}
+#varmfarg:hover{
+    background-color: rgb(252, 236, 220);
+}
+#kallfarg:hover{
+    background-color: rgb(229,255,253);
+}
+.bestall p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    width: 40%;
+}
+.bestall h4{
+    width: 30%;
+}
+
+.bestall:hover {
+    /*background-color: rgb(255, 241, 224); */
+    transform:scale(1.05);
+}
+.sidenav a {
+    
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: block;
+    
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+.top  {
+    width: 100%;
+    height: 80px;
+    background-color: burlywood;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 2;
+}
+    .top a {
+        
+        text-decoration: none;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        float: left;
+        
+        
+        
+    }
+    .but {
+        background-color: burlywood;
+        height: 80px;
+        width:192px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        border-width: 0px;
+        transition: .5s;
+    }
+    .but2 {
+        background-color: rgb(172, 142, 104);
+        height: 80px;
+        width:192px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+        border-width: 0px;
+        transition: .5s;
+    }
+    .but:hover{
+        background-color: rgb(172, 142, 104);
+        color: #f1f1f1;
+        font-size: 25px;
+        
+    }
+    .but2:hover{
+        background-color: burlywood;
+        color: #f1f1f1;
+        font-size: 25px;
+        width: 100%;
+    }
+    #varma{
+        display: block;
+        padding-top: 110px;
+        margin-top: -110px;
+    }
+    #kalla{
+        display: block;
+        padding-top: 60px;
+        margin-top: -60px;
+    }
+    #teer{
+        display: block;
+        padding-top: 60px;
+        margin-top: -60px;
+    }
+    #ovrigt{
+        display: block;
+        padding-top: 60px;
+        margin-top: -60px;
+    }
+
+
+
+.main {
+    margin-left: 192px;
+    margin-right: 192px;
+    color: rgb(109, 91, 67);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    background-size: 79px 79px;
+    margin-left: 40px;
+}
