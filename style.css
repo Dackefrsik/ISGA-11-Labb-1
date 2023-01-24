@@ -53,6 +53,9 @@ body {
     padding-left: 50px;
     padding-top: 50px;
 }
+.maintext2{
+    padding-left: 50px;
+}
 .bestall {
     width: 100%;
     display: flex;
@@ -115,9 +118,6 @@ body {
         font-family: Arial, Helvetica, sans-serif;
         color: black;
         float: left;
-        
-        
-        
     }
     .but {
         background-color: burlywood;
@@ -171,9 +171,6 @@ body {
         padding-top: 60px;
         margin-top: -60px;
     }
-
-
-
 .main {
     margin-left: 192px;
     margin-right: 192px;
@@ -189,3 +186,51 @@ body {
     background-size: 79px 79px;
     margin-left: 40px;
 }
+.maininfo{
+    margin-left: 192px;
+    margin-right: 192px;
+    color: rgb(109, 91, 67);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+    height: 200px;
+    background-color: bisque;
+}
+.google{
+    margin-top: -9px;
+    background-color: rgb(43, 128, 128);
+}
+iframe{
+    width: 600px;
+    height: 450px;
+    border:0;
+}
+iframe:hover{
+    transition: 1.05;
+    scale: 1.05;
+}
+#Hitta{
+    display: block;
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Öppettider{
+    display: block;
+    padding-top: 60px;
+    margin-top: -60px;
+}
+table{
+    border-radius: 5px solid;
+    border-color: black;
+}
+#Adress{
+    text-align: right;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#tid{
+    margin-left: 25px;
+}
+    
