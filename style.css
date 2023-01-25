@@ -199,18 +199,25 @@ body {
 }
 .google{
     margin-top: -9px;
-    background-color: rgb(43, 128, 128);
+}
+.wrap{
+   display: flex;
+}
+.wrap2{
+    display: table-column;
+
 }
 iframe{
     width: 600px;
     height: 450px;
-    border:0;
+    border: 0;
 }
 iframe:hover{
     transition: 1.05;
     scale: 1.05;
 }
 #Hitta{
+    flex-wrap: wrap;
     display: block;
     padding-top: 60px;
     margin-top: -60px;
@@ -225,12 +232,30 @@ table{
     border-color: black;
 }
 #Adress{
-    text-align: right;
-    margin-top: -10px;
-    margin-left: 10px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 30px;
     font-family:Arial, Helvetica, sans-serif;
 }
 #tid{
     margin-left: 25px;
+    text-align: right;
 }
+#kontakt{
+    width: 5%;
+    height: 5%;
+}
+#mail{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#number{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
     
