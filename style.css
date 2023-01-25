@@ -251,11 +251,50 @@ table{
     margin-top: 10px;
     margin-left: 50px;
 }
+#mail::before{
+    margin-top: 570px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 75%;
+    height: 20%;
+    background: rgb(172, 142, 104);
+    opacity: 0.5;
+    z-index: - 30;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bazier(0.5,1.6,0.4,0.7);
+    transform: scaleX(0);
+}
+#mail:hover::before{
+    transform: scaleX(1);
+}
 #number{
     text-decoration: none;
     color: black;
     margin-top: 10px;
     margin-left: 50px;
+    transition: color 0.4s linear;
+}
+#number::before{
+    margin-top: 357px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 75%;
+    height: 20%;
+    background: rgb(172, 142, 104);
+    opacity: 0.5;
+    z-index: - 30;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bazier(0.5,1.6,0.4,0.7);
+    transform: scaleX(0);
+}
+#number:hover::before{
+    transform: scaleX(1);
 }
 
     
